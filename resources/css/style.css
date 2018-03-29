@@ -26,7 +26,8 @@ h2 {
 font-size: 32px;
 font-weight: bold;
 }
-.content h3{
+
+.content h3 {
   font-size: 23px
   font-weight: bold;
 }
@@ -34,15 +35,31 @@ font-weight: bold;
 .content p{
   font-size: 14px
 }
-.middlebar h3{
+.middlebar h3 {
   background-image: url(../the-flatiron-building.png);
   font-size: 23px;
   font-weight: bold;
   color: white;
 }
-#footer p {
+
+.bottom {
+  background-color: dimgray;
+}
+
+.bottom p {
   font-size: 11px;
   color: white;
+  float:left;
+  display: inline;
+}
+
+.bottom ul {
+  list-style: none;
   text-align: left;
-  background-color: dimgray;
+}
+
+.bottom li {
+  font-size: 18px;
+  color: white;
+  display: inline;
 }
