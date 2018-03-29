@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-  background-image: url(./resources/the-flatiron-building.png);
+  background-image: url(../the-flatiron-building.png);
+  background-position: center;
 }
 
 .header {
@@ -13,4 +14,35 @@ body {
   font-weight: bold;
   color: white;
   text-align: center;
+}
+
+li {
+  font-size 18px;
+  color: white;
+  list-style: none
+}
+
+h2 {
+font-size: 32px;
+font-weight: bold;
+}
+.content h3{
+  font-size: 23px
+  font-weight: bold;
+}
+
+.content p{
+  font-size: 14px
+}
+.middlebar h3{
+  background-image: url(../the-flatiron-building.png);
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+#footer p {
+  font-size: 11px;
+  color: white;
+  text-align: left;
+  background-color: dimgray;
 }
